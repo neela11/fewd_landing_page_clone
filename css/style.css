@@ -4,12 +4,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-body {
-    background-color: LightGray;
-}
-div {
-    border: 1px solid Chocolate;
-}
+
 .top-navigation{
 	width:100%;
 	height:8em;
@@ -102,9 +97,10 @@ button:hover{
 
 
 .cases .content{
-	text-align: center;
+	
 }
 .cases h2 {
+	text-align: center;
 	font-size: 2.5em;
 	font-weight: 200;
 	font-family: 'Roboto', sans-serif;
@@ -112,3 +108,75 @@ button:hover{
     -webkit-font-smoothing: antialiased;
     margin-top: 3em;
 }
+cases img{
+	width: 70px;
+	height:80px;
+}
+
+.cases ul{
+	list-style-type: none;
+	margin-left:21em;
+}
+.cases ul>li {
+    
+    text-align: -webkit-match-parent;
+    display: inline-block;
+    height: 4em;
+}
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+   
+}
+.captiom{
+	margin-left: -3.5em;
+	margin-right: 3.3em;
+}
+.social{
+	text-align: center;
+	margin-bottom: 10em;
+}
+.social .icons > li:hover {
+    cursor: pointer;
+}
+.social .icons{
+	margin-left: -2em;
+}
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+    margin-top: -2em;
+    margin-bottom: -.1em;
+
+}
+.social .fa fa-twitter {
+    color: #55acee;
+}
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin-top: 9em;
+   width: 45em;
+}
+ h5 {
+	font-weight: 400;
+	font-size: 1em;
+	font-family: 'Roboto', sans-serif;
+    
+    -webkit-font-smoothing: antialiased;
+}
+.copy{
+	margin-top: -2em;
+	margin-left: 2em;
+	font-family: 'Roboto', sans-serif;
+    
+    -webkit-font-smoothing: antialiased;
+    font-weight: 100;
+}
+
